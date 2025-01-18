@@ -40,7 +40,7 @@ Public Class SunatBC
                     Return objE
                 End If
                 Dim DATA As String
-                'URL = $"http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias?accion=consPorRuc&nroRuc={RUC}&codigo={TextoCache}&tipdoc=1"
+                ''URL = $"http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias?accion=consPorRuc&nroRuc={RUC}&codigo={TextoCache}&tipdoc=1"
                 If tipo = EnumTipoDato.RUC Then
                     'Consulta de RUC
                     URL = $"https://api.apis.net.pe/v1/ruc?numero=" & DATO
