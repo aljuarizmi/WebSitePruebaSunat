@@ -28,7 +28,6 @@ Public Class SunatBC
         objE.mensaje = ""
         Try
             If ValidarRUC(DATO, tipo, objE.mensaje) Then
-                'ReiniciarProceso:
                 Dim miCookie As New CookieContainer
                 'Dim TextoCache, URL As String
                 Dim URL As String = ""
