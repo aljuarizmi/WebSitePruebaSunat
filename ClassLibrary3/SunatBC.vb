@@ -40,30 +40,6 @@ Public Class SunatBC
                     objE.out_band = 1
                     Return objE
                 End If
-                'TextoCache = F_LeerCaptcha(miCookie)
-                'If TextoCache Is Nothing OrElse TextoCache.Length <> 4 Then
-                '    'GoTo ReiniciarProceso
-                '    miCookie = New CookieContainer
-                '    TextoCache = F_LeerCaptcha(miCookie)
-                'End If
-                'If TextoCache Is Nothing OrElse TextoCache.Length <> 4 Then
-                '    miCookie = New CookieContainer
-                '    TextoCache = F_LeerCaptcha(miCookie)
-                'End If
-                'If TextoCache Is Nothing OrElse TextoCache.Length <> 4 Then
-                '    miCookie = New CookieContainer
-                '    TextoCache = F_LeerCaptcha(miCookie)
-                'End If
-                'If TextoCache Is Nothing OrElse TextoCache.Length <> 4 Then
-                '    miCookie = New CookieContainer
-                '    TextoCache = F_LeerCaptcha(miCookie)
-                'End If
-                'If TextoCache Is Nothing OrElse TextoCache.Length <> 4 Then
-                '    'Si no se ha podido en 4 veces, debe retornar error
-                '    objE.mensaje = "No se pudo leer el captcha. Se intentó 4 veces."
-                '    objE.out_band = 1
-                '    Return objE
-                'End If
                 Dim DATA As String
                 'URL = $"http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias?accion=consPorRuc&nroRuc={RUC}&codigo={TextoCache}&tipdoc=1"
                 If tipo = EnumTipoDato.RUC Then
