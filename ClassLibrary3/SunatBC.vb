@@ -29,11 +29,7 @@ Public Class SunatBC
         Try
             If ValidarRUC(DATO, tipo, objE.mensaje) Then
                 Dim miCookie As New CookieContainer
-                'Dim TextoCache, URL As String
                 Dim URL As String = ""
-                'If tipo.Trim = "" Then
-                '    tipo = "1"
-                'End If
                 If tipo <> EnumTipoDato.RUC And tipo <> EnumTipoDato.DNI And tipo <> EnumTipoDato.TipoCambio Then
                     objE.mensaje = "Solo se permite consultas para tipo 1 (RUC), 2 (DNI) Y 3 (Tipo Cambio)."
                     objE.out_band = 1
